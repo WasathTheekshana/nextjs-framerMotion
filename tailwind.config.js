@@ -10,9 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      latoLight: "LatoLight",
-      latoBold: "LatoBold",
-      latoReg: "LatoReg",
+      fontFamily: {
+        latoLight: "LatoLight",
+        latoBold: "LatoBold",
+        latoReg: "LatoReg",
+      },
     },
   },
   plugins: [],
